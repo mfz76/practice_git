@@ -10,8 +10,9 @@ def countdown(n):
     
     if  n <= 10:
         print("Blastoff")
-    else:
+    else: 
         print(n)
-        countdown(n-1)
+        countdown(n-1)         
+        print(n)
         
 countdown(n)
